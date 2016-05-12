@@ -39,6 +39,21 @@
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Soneta.CRM, Version=11.3.5933.22992, Culture=neutral, PublicKeyToken=a19fc6236fd34393, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Soneta\enova365 11.3.5969\Soneta.CRM.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Soneta.Handel, Version=11.3.5933.22996, Culture=neutral, PublicKeyToken=a19fc6236fd34393, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Soneta\enova365 11.3.5969\Soneta.Handel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Soneta.Kasa, Version=11.3.5933.22988, Culture=neutral, PublicKeyToken=a19fc6236fd34393, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Soneta\enova365 11.3.5969\Soneta.Kasa.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Soneta.Types">
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
@@ -69,6 +84,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
+    <Compile Include="WiadomosciExt\WiadomoscExt.cs" />
+    <Compile Include="WiadomosciExt\WiadomosciExt.cs" />
+    <Compile Include="WiadomosciExt\WydrukiWiad.cs" />
+    <Compile Include="WiadomosciExt\WydrukWiadomosci.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Start.txt" />
@@ -132,9 +151,7 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="WiadomosciExt\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
