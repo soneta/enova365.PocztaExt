@@ -89,6 +89,10 @@
       <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
     <Compile Include="WiadomosciExt\DodajWiadomoscWorker.cs" />
+    <Compile Include="WiadomosciExt\DokumentyWiadomosciParams.cs" />
+    <Compile Include="WiadomosciExt\DokumentyWiadomosciViewInfo.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="WiadomosciExt\DokumentyWiadomosciWorker.cs" />
     <Compile Include="WiadomosciExt\WiadomoscExt.cs" />
     <Compile Include="WiadomosciExt\WiadomosciDokumentuWorker.cs" />
@@ -144,6 +148,7 @@
       <Generator>BusinessGenerator</Generator>
       <LastGenOutput>PocztaExt.business.cs</LastGenOutput>
     </Content>
+    <EmbeddedResource Include="WiadomosciExtUI\DokumentyWiadomosci.viewform.xml" />
     <EmbeddedResource Include="PocztaExt.dbinit.xml" />
     <Content Include="Soneta.Generator.exe" />
     <EmbeddedResource Include="WiadomosciExtUI\DokumentHandlowy.Wiadomosci.pageform.xml" />
