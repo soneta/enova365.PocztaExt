@@ -18,7 +18,7 @@ using Soneta.CRM;
 using Soneta.Business.App;
 using enova365.PocztaExt.WiadomosciExt;
 
-[assembly: ModuleType("PocztaExt", typeof(enova365.PocztaExt.WiadomosciExt.PocztaExtModule), 2, "PocztaExt", 2, VersionNumber=1)]
+[assembly: ModuleType("PocztaExt", typeof(enova365.PocztaExt.WiadomosciExt.PocztaExtModule), 2, "PocztaExt", 2, VersionNumber=2)]
 
 namespace enova365.PocztaExt.WiadomosciExt {
 

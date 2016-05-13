@@ -62,6 +62,11 @@
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Soneta.Zadania, Version=11.3.5933.23000, Culture=neutral, PublicKeyToken=a19fc6236fd34393, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Soneta\enova365 11.3.5969\Soneta.Zadania.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -83,12 +88,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
+    <Compile Include="WiadomosciExt\DodajWiadomoscWorker.cs" />
     <Compile Include="WiadomosciExt\DokumentyWiadomosciWorker.cs" />
     <Compile Include="WiadomosciExt\WiadomoscExt.cs" />
     <Compile Include="WiadomosciExt\WiadomosciDokumentuWorker.cs" />
     <Compile Include="WiadomosciExt\WiadomosciExt.cs" />
     <Compile Include="WiadomosciExt\WydrukiWiad.cs" />
     <Compile Include="WiadomosciExt\WydrukWiadomosci.cs" />
+    <Compile Include="WiadomosciExt\WyslijDokumentWorker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Start.txt" />
@@ -137,6 +144,7 @@
       <Generator>BusinessGenerator</Generator>
       <LastGenOutput>PocztaExt.business.cs</LastGenOutput>
     </Content>
+    <EmbeddedResource Include="PocztaExt.dbinit.xml" />
     <Content Include="Soneta.Generator.exe" />
     <EmbeddedResource Include="WiadomosciExtUI\DokumentHandlowy.Wiadomosci.pageform.xml" />
     <EmbeddedResource Include="WiadomosciExtUI\WiadomosciEmail.Dokumenty.pageform.xml" />
